@@ -1,0 +1,15 @@
+camel:
+  springboot:
+    stream-caching-enabled: true
+#    name: myCamel
+  component:
+    salesforce:
+      client-id: 3MVG9sn24bYFReCUi32rREgAT5JeXd1SCOXGdE7xWh7z_S1.wthwI6nURNe1II5LIxI37_iaTFgh0HpjUwOBF
+      user-name: koolashu321@curious-goat-21dshv.com
+      login-config:
+        type: JWT
+        client-id: 3MVG9sn24bYFReCUi32rREgAT5JeXd1SCOXGdE7xWh7z_S1.wthwI6nURNe1II5LIxI37_iaTFgh0HpjUwOBF
+        user-name: koolashu321@curious-goat-21dshv.com
+        keystore:
+          resource: './salesforce/client-identity.p12'
+          password: test
